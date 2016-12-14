@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha src/index.test.js",
-    "test:watch": "test -- -w"
+    "test:watch": "test -- -w",
+    "build": "test"
   },
   "repository": {
     "type": "git",
