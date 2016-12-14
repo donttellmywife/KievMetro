@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha src/index.test.js",
     "test:watch": "test -- -w",
-    "build": "test"
+    "done": "echo Congrats!"
   },
   "repository": {
     "type": "git",
