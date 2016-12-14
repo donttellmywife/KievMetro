@@ -1,0 +1,24 @@
+{
+  "name": "KievMetro",
+  "version": "0.0.1",
+  "description": "Time table for late metro in Kiev",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donttellmywife/KievMetro.git"
+  },
+  "keywords": [
+    "timetable",
+    "Kiev",
+    "metro"
+  ],
+  "author": "Vladimir Puchkov <volodymyr.puchkov@gmail.com> (https://github.com/donttellmywife)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donttellmywife/KievMetro/issues"
+  },
+  "homepage": "https://github.com/donttellmywife/KievMetro"
+}
