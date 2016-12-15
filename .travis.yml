@@ -5,6 +5,9 @@ branches:
         - master
     exclude:
         - test
+branches:
+    only:
+        - master
 notifications:
   email: false
 node_js:
@@ -14,8 +17,11 @@ before_install:
 before_script:
   - npm prune
 script:
-  - npm run test
+  - npm run cover
+  - npm run check-coverage
+  - npm run build
 after_success:
+  - npm run report-coverage
   - npm run done
 branches:
   except:
