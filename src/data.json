@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "1",
     "name": "Dvorec Sporta",
     "timetable": {
@@ -7,8 +7,8 @@
         "back": ["22:08", "22:18", "22:26", "22:37"]
     },
     "transition": ["2"]
-},
-{
+  },
+  {
     "id": "2",
     "name": "Ploshad Lva Tolstogo",
     "timetable": {
@@ -16,5 +16,5 @@
         "back": ["22:08", "22:18", "22:26", "22:37"]
     },
     "transition": ["1"]
-}
+  }
 ]

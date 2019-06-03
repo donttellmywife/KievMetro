@@ -1,10 +1,10 @@
 const { resolve } = require('path')
 
 const HTML = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
-const mode = process.env.NODE_ENV || 'development';
-const prod = mode === 'production';
+const mode = process.env.NODE_ENV || 'development'
+const prod = mode === 'production'
 
 module.exports = {
   context: resolve('src'),
@@ -53,5 +53,5 @@ module.exports = {
       filename: '[name].css'
     })
   ],
-  devtool: prod ? false: 'source-map'
-};
+  devtool: prod ? false: 'source-map',
+}

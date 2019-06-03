@@ -1,5 +1,5 @@
 <script>
-  export let name;
+  export let timetable;
 </script>
 
 <style>
@@ -8,4 +8,4 @@
   }
 </style>
 
-<h1>Hello {name}!</h1>
+<h1>Hello { timetable.map((station => station.name)) }!</h1>

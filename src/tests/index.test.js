@@ -1,12 +1,11 @@
 import { render, cleanup } from '@testing-library/svelte'
 import App from '../App.svelte'
+import timetable from '../data.json'
 
 describe('App', () => {
   test('should render greeting', () => {
-    const { container } = render(App, { props: { name: 'world' } })
+    const { container } = render(App, { props: { timetable } })
 
-    expect(container.querySelector('h1').innerHTML).toBe('Hello world!')
     expect(container.firstChild).toMatchSnapshot()
   })
-
 })

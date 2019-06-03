@@ -1,10 +1,11 @@
-import App from './App.svelte';
+import App from './App.svelte'
+import timetable from './data.json'
 
 const app = new App({
   target: document.body,
   props: {
-    name: 'world'
-  }
-});
+    timetable,
+  },
+})
 
-export default app;
+export default app
