@@ -1,5 +1,5 @@
 import App from './App.svelte'
-import timetable from './data.json'
+import timetable from './data.js'
 
 const app = new App({
   target: document.body,

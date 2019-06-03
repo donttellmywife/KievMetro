@@ -1,6 +1,6 @@
 import { render, cleanup } from '@testing-library/svelte'
 import App from '../App.svelte'
-import timetable from '../data.json'
+import timetable from '../data.js'
 
 describe('App', () => {
   test('should render greeting', () => {
