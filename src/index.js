@@ -1,5 +1,10 @@
-var data = require('./data.json');
+import App from './App.svelte';
 
-module.exports = {
-    all: data
-};
+const app = new App({
+  target: document.body,
+  props: {
+    name: 'world'
+  }
+});
+
+export default app;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render greeting 1`] = `
+<div>
+  <h1
+    class="svelte-1ucbz36"
+  >
+    Hello 
+    world
+    !
+  </h1>
+</div>
+`;
